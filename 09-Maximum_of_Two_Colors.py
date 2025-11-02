@@ -8,4 +8,3 @@ elif (second) > (first):
     print(f"{second} is larger.")
 elif (first) == (second):
     print("Both numbers are equal.")
-10
