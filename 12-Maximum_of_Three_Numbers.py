@@ -1,14 +1,14 @@
 first= int(input("Enter first number: "))
-second= int(input("Enter second number: "))
-third= int(input("Enter third number: "))
+second= int(input("Enter a differenr number: "))
+third= int(input("Enter a different number: "))
 
 if first > second:
     if first > third:
         print(f"{first} is greatest.")
-    elif third > first:
+    else:
         print(f"{third} is greatest.")
 elif second > first:
     if second > third:
         print(f"{second} is largest.")
-    elif third > second:
+    else:
         print(f"{third} is greatest.")
